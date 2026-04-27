@@ -3,75 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+    <title>Anthony Toman // TERMINAL</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">YourName.</div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <h1 class="glitch" data-text="Anthony Toman">Anthony Toman</h1>
+            <div class="status-bar">
+                <span>[ STATUS: LOOKING FOR NEW OPPORTUNITIES ]</span>
+                <span>[ ORIGIN: SOFTWARE ENGINEERING @ YOUR UNIVERSITY ]</span>
+            </div>
+        </header>
 
-    <section id="about" class="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Your Name</span>.</h1>
-            <p>I build things. I'm a passionate creator specializing in solving problems and building elegant solutions.</p>
-            <a href="#work" class="btn">See My Work</a>
-        </div>
-    </section>
+        <hr class="separator">
 
-    <section id="work" class="projects-section">
-        <h2>Selected Work</h2>
-        <div class="project-grid">
-            
-            <div class="project-card">
-                <div class="project-placeholder">Image/Preview</div>
-                <div class="project-info">
-                    <h3>Project Title 1</h3>
-                    <p>A brief description of the project. What problem did you solve? What technologies did you use?</p>
-                    <a href="#" class="project-link">View Project &rarr;</a>
+        <section class="operational-history">
+            <div class="section-header">
+                <h2>OPERATIONAL HISTORY</h2>
+                <span class="count">3 ENTRIES</span>
+            </div>
+
+            <div class="history-grid">
+                <div class="history-item">
+                    <div class="item-meta">[ AUG 2025 — PRESENT ]</div>
+                    <div class="item-title">TECH CORP // TEAM ALPHA</div>
+                    <div class="item-role">SOFTWARE ENGINEER</div>
+                    <div class="item-desc">Architecting agentic workflows for automated data clustering.</div>
+                    <div class="item-tags">
+                        <span>Python</span> <span>LangGraph</span> <span>NLP</span>
+                    </div>
+                </div>
+
+                <div class="history-item">
+                    <div class="item-meta">[ MAY 2024 — AUG 2024 ]</div>
+                    <div class="item-title">STARTUP INC</div>
+                    <div class="item-role">ENGINEERING INTERN</div>
+                    <div class="item-desc">Deployed self-hosted LLM capabilities and built internal APIs.</div>
+                    <div class="item-tags">
+                        <span>TypeScript</span> <span>React</span> <span>Kubernetes</span>
+                    </div>
+                </div>
+                
+                <div class="history-item">
+                    <div class="item-meta">[ JAN 2023 — MAY 2024 ]</div>
+                    <div class="item-title">UNIVERSITY LAB</div>
+                    <div class="item-role">RESEARCHER</div>
+                    <div class="item-desc">Self-supervised learning for noisy label computer vision in robotics.</div>
+                    <div class="item-tags">
+                        <span>Python</span> <span>PyTorch</span> <span>Computer Vision</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="project-block">
+                <div class="marquee-container">
+                    <div class="marquee">
+                        <span>ORACLE // LOOP</span><span>ORACLE // LOOP</span><span>ORACLE // LOOP</span><span>ORACLE // LOOP</span>
+                        <span>ORACLE // LOOP</span><span>ORACLE // LOOP</span><span>ORACLE // LOOP</span><span>ORACLE // LOOP</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT ALPHA: CONVERSATIONAL CLUSTERING</h3>
+                    <p>Iterative conversational clustering agent via LangGraph. Empowering users with actionable dataset insights through natural language interaction.</p>
+                    <div class="item-tags">
+                        <span>LANGGRAPH</span> <span>LLM AGENTS</span> <span>PYTHON</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-card">
-                <div class="project-placeholder">Image/Preview</div>
-                <div class="project-info">
-                    <h3>Project Title 2</h3>
-                    <p>A brief description of the project. Keep it concise and impactful to grab the reader's attention.</p>
-                    <a href="#" class="project-link">View Project &rarr;</a>
+            <div class="project-block">
+                <div class="marquee-container">
+                    <div class="marquee alt-marquee">
+                        <span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span>
+                        <span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span><span>GENERATE // RECOVER</span>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>PROJECT BRAVO: WIKI TOPOLOGY</h3>
+                    <p>The Structure of Mathematics. A 132k-node graph reconstruction of Wikipedia's mathematical ontology. Community detection algorithms visualized.</p>
+                    <div class="item-tags">
+                        <span>NETWORK SCIENCE</span> <span>GRAPH EMBEDDING</span> <span>C++</span>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="project-card">
-                <div class="project-placeholder">Image/Preview</div>
-                <div class="project-info">
-                    <h3>Project Title 3</h3>
-                    <p>Another amazing project. You can add as many of these cards as you need by copy-pasting the HTML.</p>
-                    <a href="#" class="project-link">View Project &rarr;</a>
-                </div>
+        <hr class="separator">
+
+        <footer>
+            <div class="core-competencies">
+                CORE_COMPETENCIES: AGENTIC_AI_WORKFLOWS // LLM_INFERENCE_INFRA // SCIENTIFIC_COMPUTING // FULL_STACK_DEV
             </div>
-
-        </div>
-    </section>
-
-    <footer id="contact">
-        <h2>Let's connect</h2>
-        <p>I'm currently open for new opportunities.</p>
-        <a href="mailto:your.email@example.com" class="btn btn-outline">Say Hello</a>
-        <div class="social-links">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-        </div>
-        <p class="copyright">&copy; 2026 Your Name. Built from scratch.</p>
-    </footer>
-
-    <script src="script.js"></script>
+            <div class="footer-links">
+                <a href="#">GITHUB</a>
+                <a href="#">LINKEDIN</a>
+                <a href="#">RESUME</a>
+            </div>
+            <div class="copyright">
+                Anthony Toman // 2026
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
