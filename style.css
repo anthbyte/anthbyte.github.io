@@ -225,3 +225,14 @@ footer {
         margin-bottom: 0.5rem;
     }
 }
+
+/* Particle Network Background */
+#networkCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Puts it behind everything else */
+    pointer-events: none; /* Allows you to click text/links through the canvas */
+}
